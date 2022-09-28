@@ -11,6 +11,7 @@ import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollUp/ScrollUp'
 import { useEffect, useState } from 'react'
 import Loading from './components/loading/Loading'
+import Projects from './components/project/Project'
 
 function App() {
 
@@ -20,29 +21,30 @@ function App() {
     window.addEventListener('load', () => {
       setTimeout(() => {
         setIsLoaded(true)
-      }, 4000);
+      }, 2000);
 
     })
   }, [])
 
   return (
-    !isLoaded ? <Loading /> :
-      <>
-        <Header />
+    // !isLoaded ? <Loading /> :
+    <>
+      <Header />
 
-        <main className="main">
-          <Home />
-          <About />
-          <Skills />
-          <Qualification />
-          <Testimonials />
-          <Contact />
-        </main>
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Qualification />
+        <Projects />
+        <Testimonials />
+        <Contact />
+      </main>
 
-        <Footer />
-        <ScrollUp />
+      <Footer />
+      <ScrollUp />
 
-      </>
+    </>
   )
 }
 
