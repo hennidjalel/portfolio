@@ -23,15 +23,15 @@ const Footer = () => {
 
                 <div className="footer__social">
                     <a href="https://www.instagram.com/?hl=fr" className="footer__social-link" target="_blank">
-                        <i class="bx bxl-instagram"></i>
+                        <i className="bx bxl-instagram"></i>
                     </a>
 
                     <a href="https://www.facebook.com/jalelhenni1" className="footer__social-link" target="_blank">
-                        <i class="bx bxl-facebook"></i>
+                        <i className="bx bxl-facebook"></i>
                     </a>
 
                     <a href="https://www.linkedin.com/in/henni-djalel-446484180/" className="footer__social-link" target="_blank">
-                        <i class="bx bxl-linkedin"></i>
+                        <i className="bx bxl-linkedin"></i>
                     </a>
                 </div>
                 <span className='footer__copy'>&#169; henni. all rigths reserved</span>
