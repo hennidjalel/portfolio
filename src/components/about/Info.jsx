@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const Info = () => {
     return (
         <div className="about__info grid">
-            <motion.div className="about__box"
+            <motion.div  className="about__box"
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: false, amount: 1 }}
