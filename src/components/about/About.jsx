@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/profil.png"
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/CV-HENNI DJALAL.pdf"
 import { motion } from 'framer-motion';
 import Info from "./Info"
 
