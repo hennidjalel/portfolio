@@ -10,7 +10,7 @@ import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollUp/ScrollUp'
 import { useEffect, useState } from 'react'
 import Loading from './components/loading/Loading'
-// import Projects from './components/project/Project'
+import Projects from './components/project/Project'
 
 function App() {
 
@@ -35,7 +35,7 @@ function App() {
           <About />
           <Skills />
           <Qualification />
-          {/* <Projects /> */}
+          <Projects />
           {/* <Testimonials /> */}
           <Contact />
         </main>
