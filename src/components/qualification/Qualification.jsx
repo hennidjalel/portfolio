@@ -63,7 +63,7 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Système informatique</h3>
+                                <h3 className="qualification__title">Computer System</h3>
                                 <span className="qualification__subtitle">University 08 mai 1945</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2019 - 2021
@@ -74,7 +74,7 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title"> Ingénierie de système informatique et logiciel.</h3>
+                                <h3 className="qualification__title"> Computer system and software engineering</h3>
                                 <span className="qualification__subtitle">university 08 mai 1945</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2015 - 2019
