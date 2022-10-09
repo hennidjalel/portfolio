@@ -1,5 +1,5 @@
 import React from 'react'
-import MovingComponent from 'react-moving-text'
+// import MovingComponent from 'react-moving-text'
 
 const Data = () => {
 
@@ -59,8 +59,8 @@ const Data = () => {
                 </svg>
             </h1>
 
-            <h3 className="home__subtitle">
-                <MovingComponent
+            <h3 className="home__subtitle">Full Stack Developer
+                {/* <MovingComponent
                     type="flip"
                     duration="2000ms"
                     delay="index * 100ms"
@@ -69,15 +69,10 @@ const Data = () => {
                     iteration="4"
                     fillMode="none">
                     Full Stack Developer
-                </MovingComponent>
+                </MovingComponent> */}
 
             </h3>
-            <p className="home__description"
-                initial={{ x: -100, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: false, amount: 1 }}
-                transition={{ duration: 1.5 }}
-            >
+            <p className="home__description">
                 I'm full stack developer based in Algeria, and I'm very passionate
                 and dedicated to my work.
             </p>
