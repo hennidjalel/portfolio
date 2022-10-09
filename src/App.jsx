@@ -8,42 +8,42 @@ import Qualification from './components/qualification/Qualification'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollUp/ScrollUp'
-import { useEffect, useState } from 'react'
-import Loading from './components/loading/Loading'
+// import { useEffect, useState } from 'react'
+// import Loading from './components/loading/Loading'
 import Projects from './components/project/Project'
 
 function App() {
 
-  const [isLoaded, setIsLoaded] = useState(false);
+  // const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        setIsLoaded(true)
-      }, 2000);
+  // useEffect(() => {
+  //   window.addEventListener('load', () => {
+  //     setTimeout(() => {
+  //       setIsLoaded(true)
+  //     }, 2000);
 
-    })
-  }, [])
+  //   })
+  // }, [])
 
   return (
-    !isLoaded ? <Loading /> :
-      <>
-        <Header />
+    // !isLoaded ? <Loading /> :
+    <>
+      <Header />
 
-        <main className="main">
-          <Home />
-          <About />
-          <Skills />
-          <Qualification />
-          <Projects />
-          {/* <Testimonials /> */}
-          <Contact />
-        </main>
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Qualification />
+        <Projects />
+        {/* <Testimonials /> */}
+        <Contact />
+      </main>
 
-        <Footer />
-        <ScrollUp />
+      <Footer />
+      <ScrollUp />
 
-      </>
+    </>
   )
 }
 
