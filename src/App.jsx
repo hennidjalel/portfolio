@@ -17,12 +17,9 @@ function App() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        setIsLoaded(true)
-      }, 2000);
-
-    })
+    setTimeout(() => {
+      setIsLoaded(true)
+    }, 2000);
   }, [])
 
   return (
