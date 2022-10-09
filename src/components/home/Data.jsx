@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 
 
 const Data = () => {
@@ -62,15 +61,10 @@ const Data = () => {
             <h3 className="home__subtitle">
                 Full Stack Developer
             </h3>
-            <motion.p className="home__description"
-                initial={{ x: -100, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: false, amount: 1 }}
-                transition={{ duration: 1.5 }}
-            >
+            <p className="home__description">
                 I'm full stack developer based in Algeria, and I'm very passionate
                 and dedicated to my work.
-            </motion.p>
+            </p>
 
             <a href="#contact" className="button button--flex">
                 Sey Hello
