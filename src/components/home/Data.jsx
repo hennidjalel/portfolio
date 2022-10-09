@@ -1,5 +1,6 @@
 import React from 'react'
-// import MovingComponent from 'react-moving-text'
+import { motion } from 'framer-motion'
+
 
 const Data = () => {
 
@@ -7,7 +8,6 @@ const Data = () => {
     return (
         <div className="home__data">
             <h1 className="home__title">Henni Djalel
-                {/* <Hi /> */}
                 <svg
                     width="36"
                     height="36"
@@ -59,23 +59,18 @@ const Data = () => {
                 </svg>
             </h1>
 
-            <h3 className="home__subtitle">Full Stack Developer
-                {/* <MovingComponent
-                    type="flip"
-                    duration="2000ms"
-                    delay="index * 100ms"
-                    direction="normal"
-                    timing="ease-in-out"
-                    iteration="4"
-                    fillMode="none">
-                    Full Stack Developer
-                </MovingComponent> */}
-
+            <h3 className="home__subtitle">
+                Full Stack Developer
             </h3>
-            <p className="home__description">
+            <motion.p className="home__description"
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: false, amount: 1 }}
+                transition={{ duration: 1.5 }}
+            >
                 I'm full stack developer based in Algeria, and I'm very passionate
                 and dedicated to my work.
-            </p>
+            </motion.p>
 
             <a href="#contact" className="button button--flex">
                 Sey Hello
