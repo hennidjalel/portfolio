@@ -11,6 +11,7 @@ import ScrollUp from './components/scrollUp/ScrollUp'
 import { useEffect, useState } from 'react'
 import Loading from './components/loading/Loading'
 import Projects from './components/project/Project'
+import Work from './components/work/Work'
 
 function App() {
 
@@ -32,7 +33,8 @@ function App() {
           <About />
           <Skills />
           <Qualification />
-          <Projects />
+          <Work />
+          {/* <Projects /> */}
           {/* <Testimonials /> */}
           <Contact />
         </main>
