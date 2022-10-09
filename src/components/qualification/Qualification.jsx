@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './qualification.css'
-import { motion } from 'framer-motion'
 
 
 const Qualification = () => {
@@ -40,22 +39,17 @@ const Qualification = () => {
                 </div>
 
                 <div className="qualification__sections">
-                    <motion.div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}
+                    <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}
                     // transition={{ staggerChildren: 0.5 }}
                     >
                         <div className="qualification__data">
-                            <motion.div
-                                initial={{ x: -100, opacity: 0 }}
-                                whileInView={{ x: 0, opacity: 1 }}
-                                viewport={{ once: false, amount: 1 }}
-                                transition={{ duration: 1 }}
-                            >
+                            <div>
                                 <h3 className="qualification__title">Full Stack developer</h3>
                                 <span className="qualification__subtitle">GomyCode</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2022
                                 </div>
-                            </motion.div>
+                            </div>
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
@@ -68,34 +62,24 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-                            <motion.div
-                                initial={{ x: 100, opacity: 0 }}
-                                whileInView={{ x: 0, opacity: 1 }}
-                                viewport={{ once: false, amount: 1 }}
-                                transition={{ duration: 1 }}
-                            >
+                            <div>
                                 <h3 className="qualification__title">Système informatique</h3>
                                 <span className="qualification__subtitle">University 08 mai 1945</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2019 - 2021
                                 </div>
-                            </motion.div>
+                            </div>
 
                         </div>
 
                         <div className="qualification__data">
-                            <motion.div
-                                initial={{ x: -100, opacity: 0 }}
-                                whileInView={{ x: 0, opacity: 1 }}
-                                viewport={{ once: false, amount: 1 }}
-                                transition={{ duration: 1 }}
-                            >
+                            <div>
                                 <h3 className="qualification__title"> Ingénierie de système informatique et logiciel.</h3>
                                 <span className="qualification__subtitle">university 08 mai 1945</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2015 - 2019
                                 </div>
-                            </motion.div>
+                            </div>
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
@@ -109,23 +93,18 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-                            <motion.div
-                                initial={{ x: 100, opacity: 0 }}
-                                whileInView={{ x: 0, opacity: 1 }}
-                                viewport={{ once: false, amount: 1 }}
-                                transition={{ duration: 1 }}
-                            >
+                            <div>
                                 <h3 className="qualification__title">Baccalaureate Scientific</h3>
                                 <span className="qualification__subtitle">Soudani Med Torqui</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2015
                                 </div>
-                            </motion.div>
+                            </div>
 
                         </div>
 
 
-                    </motion.div>
+                    </div>
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
