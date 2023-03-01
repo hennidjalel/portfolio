@@ -40,11 +40,11 @@ const Qualification = () => {
                 </div>
 
                 <div className="qualification__sections">
-                    <motion.div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}
+                    <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}
                     // transition={{ staggerChildren: 0.5 }}
                     >
                         <div className="qualification__data">
-                            <motion.div
+                            <div
                                 initial={{ x: -100, opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 viewport={{ once: false, amount: 1 }}
@@ -55,7 +55,7 @@ const Qualification = () => {
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2022
                                 </div>
-                            </motion.div>
+                            </div>
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
@@ -68,7 +68,7 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-                            <motion.div
+                            <div
                                 initial={{ x: 100, opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 viewport={{ once: false, amount: 1 }}
@@ -79,12 +79,12 @@ const Qualification = () => {
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2019 - 2021
                                 </div>
-                            </motion.div>
+                            </div>
 
                         </div>
 
                         <div className="qualification__data">
-                            <motion.div
+                            <div
                                 initial={{ x: -100, opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 viewport={{ once: false, amount: 1 }}
@@ -95,7 +95,7 @@ const Qualification = () => {
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2015 - 2019
                                 </div>
-                            </motion.div>
+                            </div>
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
@@ -109,7 +109,7 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-                            <motion.div
+                            <div
                                 initial={{ x: 100, opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 viewport={{ once: false, amount: 1 }}
@@ -120,12 +120,12 @@ const Qualification = () => {
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i> 2015
                                 </div>
-                            </motion.div>
+                            </div>
 
                         </div>
 
 
-                    </motion.div>
+                    </div>
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">

@@ -2,7 +2,6 @@ import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/profil.png"
 import CV from "../../assets/CV-HENNI DJALAL.pdf"
-import { motion } from 'framer-motion';
 import Info from "./Info"
 
 
@@ -18,16 +17,16 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <motion.p className="about__description"
-                        initial={{ y: 80, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        viewport={{ once: false, amount: 1 }}
-                        transition={{ duration: 1 }}
+                    <p className="about__description"
+                    // initial={{ y: 80, opacity: 0 }}
+                    // whileInView={{ y: 0, opacity: 1 }}
+                    // viewport={{ once: false, amount: 1 }}
+                    // transition={{ duration: 1 }}
                     >
                         Frontend and backend developer, I create web pages with UI / UX
                         user interface, I have years of experiance and many clients are happy with the
                         projects carried out.
-                    </motion.p>
+                    </p>
 
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg

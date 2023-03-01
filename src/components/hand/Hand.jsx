@@ -1,34 +1,33 @@
-    import { motion } from 'framer-motion';
-    // import './scene.css';
+// import './scene.css';
 
-    const WavingHand = () => (
-    <motion.div
+const WavingHand = () => (
+    <div
         style={{
-        
-        marginBottom: '-20px',
-        marginRight: '-45px',
-        paddingBottom: '20px',
-        paddingRight: '45px',
-        display: 'inline-block',
-        
+
+            marginBottom: '-20px',
+            marginRight: '-45px',
+            paddingBottom: '20px',
+            paddingRight: '45px',
+            display: 'inline-block',
+
         }}
         animate={{ rotate: 20 }}
         transition={{
-        yoyo: Infinity,
-        from: 0,
-        duration: 0.2,
-        ease: 'easeInOut',
-        type: 'tween',
+            yoyo: Infinity,
+            from: 0,
+            duration: 0.2,
+            ease: 'easeInOut',
+            type: 'tween',
         }}
     >
         👋
-    </motion.div>
-    );
+    </div>
+);
 
-    const Hi = () => (
+const Hi = () => (
     <h5>
-        <WavingHand /> 
+        <WavingHand />
     </h5>
-    );
+);
 
-    export default Hi;
+export default Hi;
