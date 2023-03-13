@@ -130,10 +130,10 @@ const Qualification = () => {
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title"></h3>
-                                <span className="qualification__subtitle"></span>
+                                <h3 className="qualification__title">Front-end developer </h3>
+                                <a href='https://newdigitalway.dz/' target="_blank" className="qualification__subtitle" style={{ color: "inherit" }}>New Digital Way</a>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt"></i>
+                                    <i className="uil uil-calender-alt">November 2022</i>
                                 </div>
                             </div>
                             <div>

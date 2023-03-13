@@ -62,16 +62,9 @@ const Data = () => {
             </h1>
 
             <h3 className="home__subtitle">
-                <MovingComponent
-                    type="flip"
-                    duration="2000ms"
-                    delay="index * 100ms"
-                    direction="normal"
-                    timing="ease-in-out"
-                    iteration="4"
-                    fillMode="none">
-                    Full Stack Developer
-                </MovingComponent>
+
+                Full Stack Developer
+
 
             </h3>
             <p className="home__description"
